@@ -20,15 +20,10 @@ Bu projenin temel odak noktaları şunlardır:
 
 ## Terminal Analizi
 Çalışma çıktısı incelendiğinde projenin hedeflerine ulaştığı görülmektedir:
-
 - `Deep Verify` aşaması, belleğin tam olarak istenen izinlerde olduğunu kanıtlamıştır.
-
 - `Protection: RX (Old: 0x4)` çıktısı, belleğin başarıyla yürütülebilir hale getirildiğini gösterir.
-
 - `Status: ACTIVE, ExitCode: 0x103` bilgisi, uzak thread'in hedef süreçte başarıyla başlatıldığını ve çalıştığını teyit eder.
-
 - `Persistence requested` mesajı, RAII temizlik mekanizmasının thread'i korumak için devreye girdiğini kanıtlar.
-
 
 
 ```bash
